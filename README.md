@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MapRate Plugin for GG1MapChooser</title>
 </head>
 <body>
 
@@ -103,7 +102,7 @@
     <li><code>MapRateFlag</code> - Admin flag for players allowed to rate maps.</li>
     <li><code>MapsToPlayBeforeRate</code> - Number of games required on a map before players can rate it.</li>
     <li><code>RatingExpirationDays</code> - Number of days after which ratings expire (Feature Pending).</li>
-    <li><code>IfPlayedMapExpirationDays</code> - Number of days of inactivity before requiring players to re-rate maps (Feature Pending).</li>
+    <li><code>IfPlayedMapExpirationDays</code> - Number of days of inactivity before requiring players to re-play maps (Feature Pending).</li>
     <li><code>RoundToRemindRate</code> - Round number to remind players to rate maps (Feature Pending).</li>
     <li><code>DaysBeforeExpirationToRemindRate</code> - Number of days before rating expiration to remind players to re-rate maps (Feature Pending).</li>
 </ul>
