@@ -3,10 +3,14 @@
   "average.rating": "Средний рейтинг: {0}.",
   "noaverage.rating": "У карты пока нет рейтинга.",
   "your.rating": "Твой рейтинг {0} от {1}.",
+  "rating.expired": "уже просрочен",
   "type.rate": "Напиши !ratemap в чате чтобы дать карте рейтинг.",
   "cantvote.now": "Ошибка голосования, смотри логи сервера.",
+  "cantvote.disables": "Нельзя проголосовать, плагин отключен.",
   "notvalid.rating": "Рейтинг: 0 Убрать карту, 1 Не очень, 2 Норм, 3 Не плохо, 4 Очень не плохо, 5 Супер",
   "rate.menu": "Рейтинг Карты",
+  "forcerate.menu": "Хотите поставить рейтинг карте",
+  "forcequestion.menu": "Не сейчас",
   "current.rating": "Твой рейтинг: {0}, Средний рейтинг: {1}",
   "remove.rating": "Я бы убрал эту карту (0)",
   "notgood.rating": "Не очень (1)",
@@ -24,5 +28,8 @@
   "viewmaps.rating": "Рейтинг всех карт",
   "invalid.option": "Ошибка выбора опции",
   "error.no.option.displayed": "Нет выбранной опции.",
-  "noratings.now": "Пока нет рейтинга у карт."
+  "noratings.now": "Пока нет рейтинга у карт.",
+  "remind.rate": "{green}Ты можешь дать карте рейтинг командой {olive}!ratemap",
+  "remind.rate.closetoexpire": "{green}Обнови рейтинг карты командой !ratemap. {red}Твой рейтинг скоро будет просрочен.",
+  "remind.rate.expired": "{green}Поставь карте рейтинг командой {olive}!ratemap. {red}Твой прежний ретинг просрочен."
 } 

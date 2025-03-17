@@ -3,10 +3,14 @@
   "average.rating": "Average rating: {0}.",
   "noaverage.rating": "Map is not rated yet.",
   "your.rating": "You have rated the map: {0} ({1}).",
+  "rating.expired": "is expired",
   "type.rate": "Type !ratemap to give the map rating.",
   "cantvote.now": "You can't rate map now, see server logs.",
+  "cantvote.disables": "You can't rate map now, plugin is disables.",
   "notvalid.rating": "Ratings: 0 Remove, 1 NotGood, 2 Okey, 3 Good, 4 VeryGood, 5 AmongTheBest",
   "rate.menu": "Select Map Rating",
+  "forcerate.menu": "Want the rate this map",
+  "forcequestion.menu": "Not now",
   "current.rating": "Your Rating: {0}, Average Rating: {1}",
   "remove.rating": "Remove this Map (0)",
   "notgood.rating": "NotGood (1)",
@@ -24,5 +28,8 @@
   "viewmaps.rating": "All Maps rating",
   "invalid.option": "Invalid rating option selected",
   "error.no.option.displayed": "No option display text available.",
-  "noratings.now": "No map ratings yet."
+  "noratings.now": "No map ratings yet.",
+  "remind.rate": "{green}You can rate this map with {olive}!ratemap {green}command.",
+  "remind.rate.closetoexpire": "{green}Please refresh this map rating with {olive}!ratemap {green}command. {red}Your current Rating will expire soon.",
+  "remind.rate.expired": "{green}Please rate this map with {olive}!ratemap {green}command. {red}Your current Rating is expired."
 } 

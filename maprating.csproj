@@ -7,12 +7,15 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.287" />
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.304" />
     <PackageReference Include="MySqlConnector" Version="*" />
     <PackageReference Include="Dapper" Version="*" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="../ggmcAPI/ggmcAPI.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../GunGameAPI/GunGameAPI.csproj" />
   </ItemGroup>
   <ItemGroup>
         <None Update="lang\**\*.*" CopyToOutputDirectory="PreserveNewest" />
