@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MapRate Plugin for GG1MapChooser</title> </head>
+</head>
 <body>
 
 <h1>MapRate Plugin for GG1MapChooser</h1>
 
 <h2>Overview</h2>
-<p>The <strong>MapRate Plugin</strong> is an extension for the <a href="[Link_To_GG1MapChooser_If_Available]">GG1 MapChooser</a> plugin for Counter-Strike. It introduces a system allowing players to rate the maps they play. Based on this collective player feedback, the plugin dynamically adjusts map weights within GG1 MapChooser, influencing how frequently each map appears in map votes.</p>
+<p>The <strong>MapRate Plugin</strong> is an extension for the <a href="https://github.com/ssypchenko/GG1MapChooser">GG1 MapChooser</a> plugin for Counter-Strike. It introduces a system allowing players to rate the maps they play. Based on this collective player feedback, the plugin dynamically adjusts map weights within GG1 MapChooser, influencing how frequently each map appears in map votes.</p>
 
 <h2>Prerequisites</h2>
 <ul>
-    <li>Counter-Strike Server (CS:GO / CS2 - Specify which one)</li>
-    <li>CounterStrikeSharp (or the relevant modding platform)</li>
+    <li>Counter Strike 2 Server</li>
+    <li>CounterStrikeSharp</li>
     <li>GG1 MapChooser Plugin installed and configured.</li>
 </ul>
 
