@@ -153,7 +153,7 @@
 <h2>Installation</h2>
 <ol> <li>Ensure all prerequisites (CounterStrikeSharp, GG1 MapChooser) are installed and working.</li>
     <li>Download the latest release of the MapRate Plugin.</li>
-    <li>Place the plugin files into your CounterStrikeSharp plugins directory (<code>csgo/addons/counterstrikesharp/plugins/MapRate/</code> - adjust path as needed).</li>
+    <li>Place the plugin files into your CounterStrikeSharp plugins directory (<code>csgo/addons/counterstrikesharp/plugins/maprating/</code>.</li>
     <li>Restart your server or load the plugin via console commands. This should automatically generate the default configuration file:
         <pre><code>csgo/addons/counterstrikesharp/configs/plugins/maprating/maprating.json</code></pre>
     </li>
