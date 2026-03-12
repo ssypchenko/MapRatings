@@ -1,6 +1,6 @@
 {
   "supporters.only": "Only Supporters can rate maps.",
-  "average.rating": "Average rating: {0}.",
+  "average.rating": "Average rating: {0}, based on {1} ratings.",
   "noaverage.rating": "Map is not rated yet.",
   "your.rating": "You have rated the map: {0} ({1}).",
   "rating.expired": "is expired",
@@ -24,7 +24,7 @@
   "rated.good": "{green}Rating {red}Good {green}accepted",
   "rated.verygood": "{green}Rating {red}Very Good {green}accepted",
   "rated.amongthebest": "{green}Rating {red}Among The Best {green}accepted",
-  "mapsto.play": "You need to play this map {0} times to rate it.",
+  "mapsto.play": "You need to play this map {0} times more to rate it.",
   "viewmaps.rating": "All Maps rating",
   "invalid.option": "Invalid rating option selected",
   "error.no.option.displayed": "No option display text available.",

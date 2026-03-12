@@ -1,6 +1,6 @@
 {
   "supporters.only": "Голосовать могут только vip.",
-  "average.rating": "Средний рейтинг: {0}.",
+  "average.rating": "Средний рейтинг: {0}, на основе {1} голосов.",
   "noaverage.rating": "У карты пока нет рейтинга.",
   "your.rating": "Твой рейтинг {0} от {1}.",
   "rating.expired": "уже просрочен",
@@ -24,7 +24,7 @@
   "rated.good": "{green}Рейтинг {red}Не Плохо {green}принят",
   "rated.verygood": "{green}Рейтинг {red}Очень Не Плохо {green}принят",
   "rated.amongthebest": "{green}Рейтинг {red}Одна из Лучших {green}принят",
-  "mapsto.play": "Поиграй эту карту несколько раз {0} прежде чем голосовать.",
+  "mapsto.play": "Поиграй эту карту ещё {0} раз прежде чем голосовать.",
   "viewmaps.rating": "Рейтинг всех карт",
   "invalid.option": "Ошибка выбора опции",
   "error.no.option.displayed": "Нет выбранной опции.",
