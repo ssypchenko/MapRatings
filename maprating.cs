@@ -526,7 +526,7 @@ public class MapRating : BasePlugin, IPluginConfig<MRConfig>
             caller.PrintToChat(Localizer["cantvote.now"]);
             return;
         }
-        player.requiredReminder = false;
+        
         // Use async-await directly to simplify the flow and ensure variable consistency
         try
         {
@@ -539,6 +539,13 @@ public class MapRating : BasePlugin, IPluginConfig<MRConfig>
                 {
                     Rating rating = (Rating)ratingValue;
                     dbQueue.EnqueueOperation(async () => await dbManager.SetRatingAsync(playerSlot, mapName, rating));
+                    
+                    // Update in-memory player state immediately to stop further reminders
+                    player.currentMapRating = (int)rating;
+                    player.ratingDate = DateTime.Now.ToString("yyyy-MM-dd");
+                    player.ratingExpired = false;
+                    player.requiredReminder = false;
+                    
                     PrintToPlayerNextFrame(playerSlot,"map.rated");
                     Server.NextFrame(() => {
                         Logger.LogInformation($"Player {PlayerName} rated map {mapName} with rating: {rating}.");
@@ -821,6 +828,17 @@ public class MapRating : BasePlugin, IPluginConfig<MRConfig>
             {
                 Rating selectedRating = (Rating)optionNumber;
                 dbQueue.EnqueueOperation(async () => await dbManager.SetRatingAsync(caller.Slot, Server.MapName, selectedRating));
+                
+                // Update in-memory player state immediately to stop further reminders
+                var player = playerManager.GetPlayerBySteamID(caller.SteamID);
+                if (player != null)
+                {
+                    player.currentMapRating = (int)selectedRating;
+                    player.ratingDate = DateTime.Now.ToString("yyyy-MM-dd");
+                    player.ratingExpired = false;
+                    player.requiredReminder = false;
+                }
+
                 using (new WithTemporaryCulture(caller.GetLanguage()))
                 {
                     textline = Localizer[$"rated.{selectedRating.ToString().ToLower()}"];
