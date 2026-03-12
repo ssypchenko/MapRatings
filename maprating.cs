@@ -45,7 +45,7 @@ public class MapRating : BasePlugin, IPluginConfig<MRConfig>
         playerManager = new(this);
     }
     public override string ModuleName => "MapRating";
-    public override string ModuleVersion => "1.1.3";
+    public override string ModuleVersion => "1.1.4";
     public override string ModuleAuthor => "Sergey";
     public override string ModuleDescription => "Map Rating for GG1MapChooser";
     public static string SerId = "001";
